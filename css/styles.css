@@ -184,6 +184,8 @@ img {
 .list-header {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .item-list-header {
   padding-top: 24px;
