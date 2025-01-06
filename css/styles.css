@@ -29,6 +29,8 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .link-header:hover {
   color: #404bbf;
@@ -184,13 +186,4 @@ img {
 .list-header {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.item-list-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.item-list-address {
-  padding: 24px 0;
 }
