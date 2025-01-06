@@ -15,6 +15,7 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
 }
 .logo-text2 {
   color: #2e2f42;
@@ -45,6 +46,10 @@ a {
   letter-spacing: 0.02em;
   font-style: normal;
   color: #434455;
+}
+.list-address {
+  display: flex;
+  gap: 40px;
 }
 .address:hover,
 .address:focus {
@@ -154,4 +159,31 @@ a {
 }
 .bakcground-section-tree {
   background-color: #ffffff;
+}
+img {
+  display: block;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: 156px;
+  margin-right: 156px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.list-header {
+  display: flex;
+  gap: 40px;
+}
+.item-list-header {
+  padding: 24px 0;
 }
