@@ -65,6 +65,7 @@ a {
 }
 .section-one {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .button-section-one {
   background-color: #4d5ae5;
@@ -183,6 +184,7 @@ img {
 .list-header {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .item-list-header {
   padding: 24px 0;
