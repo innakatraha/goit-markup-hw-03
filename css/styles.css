@@ -159,7 +159,6 @@ a {
 }
 .logo-text-footer {
   color: #f4f4fd;
-  display: inline-block;
 }
 .footer-text {
   font-weight: 400;
@@ -184,6 +183,8 @@ img {
   padding-right: 24px;
   margin-left: 156px;
   margin-right: 156px;
+}
+.container-header {
   display: flex;
   margin: 0 auto;
   padding: 0 15px;
