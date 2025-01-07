@@ -98,7 +98,7 @@ a {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
+  width: width calc((100% - 3 * 24px) / 4);
   margin-bottom: 8px;
 }
 .text-section-two {
@@ -214,13 +214,17 @@ img {
   padding: 120px 0;
 }
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
+
 .list-section-two {
   display: flex;
   gap: 24px;
-}
-.item-list-section-two {
-  width: width calc((100% - 3 * 24px) / 4);
 }
