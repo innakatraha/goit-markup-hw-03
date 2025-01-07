@@ -191,16 +191,17 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .container {
-  max-width: 1158px;
   padding-left: 24px;
   padding-right: 24px;
   margin-left: 156px;
   margin-right: 156px;
 }
+
 .container-header {
   display: flex;
   margin: 0 auto;
   padding: 0 15px;
+  max-width: 1158px;
 }
 
 .nav {
