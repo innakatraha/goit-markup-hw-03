@@ -16,6 +16,7 @@ ul {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   margin-right: 76px;
+  display: inline-block;
 }
 .logo-text2 {
   color: #2e2f42;
