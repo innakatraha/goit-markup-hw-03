@@ -155,6 +155,7 @@ a {
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .logo-text-footer {
   color: #f4f4fd;
@@ -165,6 +166,7 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .bakcground-section-tree {
   background-color: #ffffff;
@@ -185,6 +187,7 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .nav {
   display: flex;
   align-items: center;
@@ -192,4 +195,8 @@ img {
 .list-header {
   display: flex;
   gap: 40px;
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
