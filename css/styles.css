@@ -5,6 +5,8 @@ body {
 }
 ul {
   list-style-type: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .logo {
@@ -197,11 +199,11 @@ img {
   padding-right: 24px;
   margin-left: 156px;
   margin-right: 156px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-header {
-  margin: 0 auto;
-  padding: 0 15px;
   display: flex;
 }
 
@@ -228,12 +230,13 @@ img {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-
 .list-section-two {
   display: flex;
   gap: 24px;
